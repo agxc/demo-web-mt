@@ -84,7 +84,7 @@ const routes = [
             component: <AboutUs />,
           },
           {
-            name: "contact us",
+            name: "Contact us",
             route: "/contact-us",
             component: <ContactUs />,
           },
