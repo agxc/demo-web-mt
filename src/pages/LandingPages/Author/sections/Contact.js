@@ -84,7 +84,7 @@ function Contact() {
                         ml={2}
                         fontWeight="regular"
                       >
-                        (+40) 772 100 200
+                        (512) 451-9527
                       </MKTypography>
                     </MKBox>
                     <MKBox display="flex" color="white" p={1}>
