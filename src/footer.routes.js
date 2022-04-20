@@ -14,7 +14,7 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Mark T",
+    name: "Gregg Unterberger",
     image: logoCT,
     route: "/",
   },
@@ -41,17 +41,16 @@ export default {
       name: "Team",
       items: [
         { name: "about us", href: "https://www.google.com/" },
-        { name: "freebies", href: "https://www.google.com/" },
-        { name: "premium tools", href: "https://www.google.com/" },
+        { name: "premium workshops", href: "https://www.google.com/" },
         { name: "blog", href: "https://www.google.com/" },
       ],
     },
     {
       name: "resources",
       items: [
-        { name: "curator", href: "https://www.google.com/" },
-        { name: "data analytics", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.google.com/" },
+        { name: "book1", href: "https://www.google.com/" },
+        { name: "book2", href: "https://iradesign.io/" },
+        { name: "working papers", href: "https://www.google.com/" },
       ],
     },
     {
@@ -70,17 +69,17 @@ export default {
     },
   ],
   copyright: (
-    <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Website by{" "}
-      <MKTypography
-        component="a"
-        href="https://www.creative-tim.com"
-        target="_blank"
-        rel="noreferrer"
-        variant="button"
-        fontWeight="regular"
-      >
-        MT
+    <MKTypography
+      component="a"
+      href="https://www.GreggUnterberger.com"
+      target="_blank"
+      rel="noreferrer"
+      variant="button"
+      fontWeight="regular"
+    >
+      <MKTypography variant="button" fontWeight="regular">
+        Copyright &copy; {date} All rights reserved. GreggUnterberger.com - Texas - All rights
+        Reserved
       </MKTypography>
       .
     </MKTypography>

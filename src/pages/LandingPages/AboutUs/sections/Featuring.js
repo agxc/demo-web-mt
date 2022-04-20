@@ -58,27 +58,27 @@ function Featuring() {
         <Grid container justifyContent="center" sx={{ textAlign: "center" }}>
           <Grid item xs={12} md={3}>
             <DefaultCounterCard
-              count={1000}
+              count={500}
               separator=","
-              title="Tables"
-              description="Highly optiomised tables holding important business entities"
+              title="Workshops"
+              description="lorem ipsum dolor sit amet"
             />
           </Grid>
           <Grid item xs={12} md={3}>
             <DefaultCounterCard
-              count={125000}
+              count={9500}
               separator=","
               suffix="+"
-              title="Columns"
-              description="Columns that convey important business insights"
+              title="Participants"
+              description="lorem ipsum dolor sit amet."
             />
           </Grid>
           <Grid item xs={12} md={3}>
             <DefaultCounterCard
               count={30}
               suffix="+"
-              title="Staff"
-              description="Experienced data modeller who can push the boundaries of data modelling forward"
+              title="Organisation"
+              description="lorem ipsum dolor sit amet."
             />
           </Grid>
         </Grid>
